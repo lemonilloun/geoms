@@ -11,8 +11,8 @@ public class Triangle {
 
     public boolean check(){
         boolean exst = false;
-        if(a > 0 || b > 0 || c > 0){
-            if (a < b + c || b < a + c || c < b  + a){
+        if(a > 0 & b > 0 & c > 0){
+            if (a < b + c & b < a + c & c < b  + a){
                 exst = true;
                 return exst;
             }

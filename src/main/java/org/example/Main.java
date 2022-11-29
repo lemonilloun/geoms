@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Введите стороны для треугольника: ");
         System.out.println("а: "); double tr_a = scanner.nextDouble();
         System.out.println("b: "); double tr_b = scanner.nextDouble();
-        System.out.println("b: "); double tr_c = scanner.nextDouble();
+        System.out.println("c: "); double tr_c = scanner.nextDouble();
         Triangle triangle = new Triangle(tr_a, tr_b, tr_c);
         if(triangle.check()){
             System.out.println("Площадь треугольника : " + triangle.Square());
